@@ -7,8 +7,6 @@ from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 import os
 
-
-# Load the data
 def load_data():
     file_path = 'Depression Student Dataset.csv'
     data = pd.read_csv(file_path)
